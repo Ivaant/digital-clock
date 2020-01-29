@@ -1,0 +1,61 @@
+@font-face {
+    src: url(./fonts/Bubblegum.ttf);
+    font-family: bubble;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./images/bg-clock-bw.png);
+    background-size: 50%;
+}
+
+div {
+    border-radius: 4px;
+}
+
+.container {
+    position: relative;
+    width: 30vw;
+    min-width: 450px;
+    margin: 150px auto;
+    background-color: #aaa;
+    background-image: url(./images/1px-transparent.png);
+    background-size: cover;
+    background-repeat: repeat;
+    padding: 25px;
+}
+
+.banner {
+    position: absolute;
+    left: 35%;
+    top: -15px;
+    padding: 3px 10px;
+    font-family: bubble;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: #f3f3f3;
+    background-color: #ff0000;
+    text-transform: uppercase;
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-basis: 30%;
+    padding: 20px 10px;
+    background-color: rgba(238, 238, 238, 1);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+#hours, #minutes {
+    margin-right: 15px;
+}
